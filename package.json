@@ -9,6 +9,7 @@
 	"categories": [
 		"Other"
 	],
+	"publisher": "Davenonymous",
 	"keywords": ["metacpan", "pod", "perl"],
 	"activationEvents": [
 		"onCommand:cpan.show",
@@ -29,6 +30,15 @@
 		]
 	},
 	"license": "MIT",
+	"homepage": "https://github.com/thraaawn/vscode-cpan/blob/master/README.md",
+	"bugs": {
+	  "url": "https://github.com/thraaawn/vscode-cpan/issues",
+	  "email": "dave@davenonymous.com"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/thraaawn/vscode-cpan.git"
+	},
 	"scripts": {
 		"vscode:prepublish": "npm run package",
 		"compile": "webpack",
